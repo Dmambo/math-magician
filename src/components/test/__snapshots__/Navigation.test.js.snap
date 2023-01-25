@@ -11,10 +11,9 @@ exports[`Navigation renders correctly 1`] = `
     className="list"
   >
     <a
-      activeClassName="active"
       aria-current="page"
-      className="link active"
-      exact={true}
+      className="link active active"
+      exact="true"
       href="/"
       onClick={[Function]}
     >
@@ -24,8 +23,7 @@ exports[`Navigation renders correctly 1`] = `
       className="vr"
     />
     <a
-      activeClassName="active"
-      className="link"
+      className="link active"
       href="/calculator"
       onClick={[Function]}
     >
@@ -35,8 +33,7 @@ exports[`Navigation renders correctly 1`] = `
       className="vr"
     />
     <a
-      activeClassName="active"
-      className="link"
+      className="link active"
       href="/quote"
       onClick={[Function]}
     >
