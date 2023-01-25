@@ -1,8 +1,11 @@
-import { render, screen,fireEvent,cleanup } from '@testing-library/react';
+import {
+  render, screen, fireEvent, cleanup,
+} from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 
 import Calculator from '../calculator';
+
 afterEach(cleanup);
 // test calculator with user interaction
 test('Calculator gets user interaction', () => {
