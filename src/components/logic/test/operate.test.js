@@ -21,7 +21,7 @@ describe('operate', () => {
   });
   it('should return an error if the second number is zero', () => {
     expect(operate(1, 0, '%')).toEqual(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
   it('should return an error if the operation is unknown', () => {

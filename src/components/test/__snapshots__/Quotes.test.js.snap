@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes renders correctly 1`] = `
+<div
+  className="quote"
+>
+  <p
+    className="quoteText"
+  >
+    ’Mathematics is the language in which God has written the universe’ - Galileo Galilei
+  </p>
+</div>
+`;
